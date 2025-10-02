@@ -1,0 +1,101 @@
+.outerSection {
+    height: 90px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(122, 99, 64);
+}
+
+.logo {
+    font-size: 25px;
+    color: rgb(122, 99, 64);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.middle ul,
+.right ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.right ul li:first-child a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Hamburger icon */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+
+    /* Show hamburger icon */
+    .hamburger {
+        display: block;
+    }
+
+    /* Hide middle menu by default */
+    .middle {
+        display: none;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 10px 0;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+    }
+
+    .middle.active {
+        display: flex;
+    }
+
+    .middle ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+
+    /* Show login/register inside menu */
+    .mobileLogin {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+}
+
+
+
