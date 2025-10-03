@@ -6,9 +6,13 @@ import second from '../../Images/imgi_6_about-icon-2.png'
 import third from '../../Images/imgi_5_about-icon-3.png'
 import fourth from '../../Images/imgi_7_about-icon-4.png'
 
+
 function About() {
   return (
+    <div>
+   
     <div className={designs.outerSection}>
+        
         <div className={designs.container}>
             <div className={designs.left}>
                 <p className={designs.head}>Who We Are</p>
@@ -50,6 +54,7 @@ function About() {
 
         </div>
       
+    </div>
     </div>
   )
 }
