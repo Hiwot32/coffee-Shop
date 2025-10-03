@@ -1,0 +1,14 @@
+.outerSection{
+    height: 700px;
+    background-image: url('../../Images//imgi_32_about-bg.png');
+    background-position: bottom;
+    background-repeat: none;
+    background-size:auto;
+     
+} 
+.container{
+    height: 500px;
+    width:90%;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,29 @@
+.outerSection{
+    background-image: url('../../Images/imgi_32_coffee-parallax-2.png');
+    height: 700px;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 50px;
+    text-align: center;
+}
+button{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 14px 25px;
+    background-color: rgb(192,170,131);
+    color:white;
+    border: none;
+        transition: background-color 0.4s ease, color 0.4s ease;
+}
+button:hover{
+    background-color: white;
+    color:black;
+    transform: scale(0.97);
+    
+}

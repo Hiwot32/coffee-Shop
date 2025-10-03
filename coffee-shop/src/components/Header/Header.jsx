@@ -17,7 +17,7 @@ function Header() {
         {/* Left section */}
         <div className={style.left}>
           <img src={coffee} width={60} alt="Coffee Logo" />
-          <h2 className={style.logo}>Coffee-Store</h2>
+          <h2 className={style.logo}>CoffeeKing</h2>
         </div>
 
         {/* Hamburger icon */}
