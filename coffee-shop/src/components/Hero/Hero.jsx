@@ -8,7 +8,7 @@ function Hero() {
         <div className={design.outerSection}>
             <div className={design.container}>
                 <img src={img} />
-                <button>View Products</button>
+                <button className={design.btn}>View Products</button>
 
             </div>
         </div>

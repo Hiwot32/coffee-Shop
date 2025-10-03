@@ -12,7 +12,7 @@
     padding-left: 50px;
     text-align: center;
 }
-button{
+.btn{
     font-weight: bold;
     font-size: 17px;
     padding: 14px 25px;
@@ -21,7 +21,7 @@ button{
     border: none;
         transition: background-color 0.4s ease, color 0.4s ease;
 }
-button:hover{
+.btn:hover{
     background-color: white;
     color:black;
     transform: scale(0.97);

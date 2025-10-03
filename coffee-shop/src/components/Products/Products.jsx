@@ -1,0 +1,33 @@
+import React from 'react'
+import {products} from '../utils/products'
+import styls from './products.module.css'
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+
+function Products() {
+  return (
+    <div className={styls.outerSection}>
+        <div className={styls.container}>
+            <div className={styls.top}>
+            <h3>Choose Your Coffee</h3>
+            <h1>Recent Products</h1>
+            </div>
+
+            <div className={styls.flex}>
+
+            {products.map((product)=>(
+                <div className={styls.card}>
+                    <img src={product.image} />
+                    <p className={styls.name}>{product.name}</p>
+                    <p className={styls.des}>{product.description}</p>
+                    <h2 className={styls.price}>${product.price}</h2>
+                    <button className={styls.button}><ShoppingCartIcon /> Add to Cart</button>
+                </div>
+            ))}
+            </div>
+        </div>
+     
+    </div>
+  )
+}
+
+export default Products

@@ -1,0 +1,76 @@
+.outerSection{
+    background-color: rgb(36,36,36);
+    height: 1000px;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 30px;
+  transition: box-shadow 0.3s ease;
+}
+.card:hover{
+    transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(221, 221, 205, 0.6); 
+}
+.card:hover .name {
+  color: rgb(192,170,131); 
+}
+ .top h3{
+    font-size: 23px;
+    color: rgb(192,170,131);
+}
+.top h1{
+    font-size: 60px;
+    color:white;
+    padding-bottom: 50px;
+}
+.flex{
+    display: flex;
+    gap: 30px;
+}
+.card img {
+  height: auto;
+  border-radius: 8px;
+}
+.name{
+    padding: 10px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.des{
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.price{
+    color:rgb(192,170,131);
+    font-size: 30px;
+    font-weight: bold;
+}
+.button{
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding: 5px 35px;
+    background-color: rgb(192,170,131);
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+.button:hover{
+    background-color: rgb(94, 79, 54);
+    cursor: pointer;
+    transform: scale(1.1);
+}

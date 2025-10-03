@@ -1,5 +1,5 @@
 .outerSection{
-    height: 700px;
+    height: 650px;
     background-image: url('../../Images//imgi_32_about-bg.png');
     background-position: bottom;
     background-repeat: none;
@@ -8,7 +8,50 @@
 } 
 .container{
     height: 500px;
-    width:90%;
+    width:85%;
     margin: 0 auto;
+    display: flex;
+    gap:80px;
+    padding-top: 100px;
 
 }
+.left{
+    width: 60%;
+    padding-top: 30px;
+}
+.head{
+    font-size: 23px !important;
+    font-weight: bold;
+    color:rgb(192,170,131)
+}
+.left h1{
+    font-size: 60px;
+    padding-bottom: 35px;
+}
+.left img{
+    padding-top: 80px;
+}
+.left p{
+    font-size: 20px;
+}
+.right{
+    width: 67%;
+    display: grid;
+     grid-template-columns: repeat(2, 1fr); /* 2 per line */
+  gap: 55px; /* spacing between items */
+  padding: 20px;
+}
+.right div{
+    width: 100%;
+    
+}
+.right div h3{
+    font-size: 23px;
+}
+.right div p{
+    font-size: 13px;
+}
+.right div img{
+    padding-bottom: 20px;
+}
+
