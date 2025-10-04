@@ -27,26 +27,26 @@ export const products=[
         image:img3,
         description:"Fresh coffee with a bold African spirit in every sip."
     },
-    {
-        id:4,
-        name:"American Black Coffee",
-        price:18.00,
-        image:img4,
-        description:"Smooth and classic coffee brewed to perfection."
-    },
-    {
-        id:5,
-        name:"Ground Coffee",
-        price:13.44,
-        image:img5,
-        description:"Freshly ground for rich aroma and full-bodied flavor."
+//     {
+//         id:4,
+//         name:"American Black Coffee",
+//         price:18.00,
+//         image:img4,
+//         description:"Smooth and classic coffee brewed to perfection."
+//     },
+//     {
+//         id:5,
+//         name:"Ground Coffee",
+//         price:13.44,
+//         image:img5,
+//         description:"Freshly ground for rich aroma and full-bodied flavor."
 
-    },
-    {
-        id:6,
-        name:"Coffee Bean",
-        price:11.56,
-        image:img6,
-        description:"Freshly roasted beans for a rich and aromatic coffee experience."
-    }
-]
+//     },
+//     {
+//         id:6,
+//         name:"Coffee Bean",
+//         price:11.56,
+//         image:img6,
+//         description:"Freshly roasted beans for a rich and aromatic coffee experience."
+//     }
+ ]

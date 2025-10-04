@@ -11,7 +11,21 @@
     margin: 0 auto;
 }
 .container ul{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     list-style-type: none;
     gap:70px;
+}
+@media(max-width:992px){
+    .container ul{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+@media(max-width:768px){
+    .container ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

@@ -63,10 +63,15 @@ a:hover {
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
+    .outerSection{
+        background-color: rgba(0,0,0,0.6);
+    }
 
     /* Show hamburger icon */
     .hamburger {
         display: block;
+        color:white;
+        
     }
 
     /* Hide middle menu by default */
@@ -76,7 +81,6 @@ a:hover {
         top: 90px;
         left: 0;
         width: 100%;
-        background-color: white;
         padding: 10px 0;
         text-align: center;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -88,8 +92,10 @@ a:hover {
     }
 
     .middle ul {
+        top:0;
         flex-direction: column;
         gap: 15px;
+        background-color:rgba(0,0,0,0.6);
     }
 
 

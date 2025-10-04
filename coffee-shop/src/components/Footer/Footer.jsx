@@ -43,10 +43,11 @@ function Footer() {
                     <li><a href="#"><TelegramIcon /></a></li>
                 </ul>
             </div>
-        </div>
-           <div className={styles.copy}>
+                       <div className={styles.copy}>
             <p>CoffeKing &copy; All rights reserved.</p>
         </div> 
+        </div>
+
     </div>
 
    

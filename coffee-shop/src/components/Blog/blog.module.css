@@ -48,7 +48,7 @@
 }
 .view{
     display: flex;
-    width:78%;
+    width:80%;
     gap: 8px;
     margin-top: 30px;
     align-items: center;
@@ -63,4 +63,26 @@
     display: flex;
     font-size: 13px;
     align-items: center;
+}
+@media (max-width: 992px) {
+  .lists > div:nth-child(3) {
+    display: none;
+  }
+}
+@media(max-width:768px){
+    .lists{
+        flex-direction: column;
+    }
+   
+    .fs, .sc{
+        width:100%;
+        margin: 0 auto;
+
+    }
+    .fs img, .sc img{
+        width: 100%;
+    }
+    .fs{
+        padding-bottom: 50px;
+    }
 }

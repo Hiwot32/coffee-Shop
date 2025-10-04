@@ -1,6 +1,8 @@
 .left{
     background-image: url('../../Images/imgi_39_discount-bg.png');
     background-position: center;
+    background-repeat: none;
+    background-size: cover;
     height: 550px;
     width: 50%;
     background-color: rgb(246,246,246);
@@ -50,4 +52,12 @@
     background-color: white;
     color:black;
     border:1px solid black;
+}
+@media(max-width:992px){
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
 }
