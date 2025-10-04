@@ -1,0 +1,66 @@
+.container{
+    width:85%;
+    margin: 0 auto;
+    padding: 90px 0px;
+}
+.lists{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.container h2{
+    font-size: 60px;
+    font-weight: 900;
+}
+.container h4{
+    font-size: 25px;
+    color: rgb(191,170,131);
+}
+.lists h1{
+    padding:20px 0px;
+    font-weight:900;
+    color: rgb(191,170,131);
+}
+.fs, .sc, .tr{
+    cursor: pointer;
+    overflow: hidden;
+    width: 40%;
+}
+.fs img, .sc img, .tr img{
+
+    transition: transform 0.5s ease;
+ 
+
+}
+.lists div:hover img{
+    transform: scale(1.1);
+
+}
+.lists div:hover h1{
+    color:black;
+}
+.lists div p{
+    width: 90%;
+}
+.title{
+    margin: 0 auto;
+    text-align: center;
+}
+.view{
+    display: flex;
+    width:78%;
+    gap: 8px;
+    margin-top: 30px;
+    align-items: center;
+    background-color: rgb(246,246,246);
+    padding: 0 25px;
+}
+.amount{
+    display: flex;
+    gap:17px;
+}
+.amount p{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+}

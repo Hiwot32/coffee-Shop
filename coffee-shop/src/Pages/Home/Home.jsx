@@ -7,6 +7,7 @@ import Products from '../../components/Products/Products'
 import Points from '../../components/Point/Points'
 import Brands from '../../components/Brands/Brands'
 import Discount from '../../components/Discount/Discount'
+import Blog from '../../components/Blog/Blog'
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
         <Points />
         <Brands />
         <Discount />
+        <Blog />
         <Footer />
         
       
