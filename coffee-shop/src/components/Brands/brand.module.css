@@ -1,0 +1,17 @@
+.outerSection{
+    margin-top: 100px;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    border-radius: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    
+}
+.container{
+    padding: 40px 0px;
+    width:90%;
+    margin: 0 auto;
+}
+.container ul{
+    display: flex;
+    list-style-type: none;
+    gap:70px;
+}

@@ -5,6 +5,8 @@ import Hero from '../../components/Hero/Hero'
 import About from '../../components/About/About'
 import Products from '../../components/Products/Products'
 import Points from '../../components/Point/Points'
+import Brands from '../../components/Brands/Brands'
+import Discount from '../../components/Discount/Discount'
 
 
 function Home() {
@@ -15,6 +17,8 @@ function Home() {
         <About />
         <Products />
         <Points />
+        <Brands />
+        <Discount />
         <Footer />
         
       
