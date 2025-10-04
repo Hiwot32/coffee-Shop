@@ -25,6 +25,7 @@ function Products() {
             </div>
           ))}
         </div>
+        <button className={styls.allp}>View all products</button>
       </div>
     </div>
   );

@@ -65,7 +65,7 @@
     padding: 5px;
     border-radius: 6px;
 }
-.icons ul li {
+.icons ul li a{
      transition: transform 0.3s ease;
     color: black;
 
@@ -80,6 +80,7 @@
   padding-top: 20px;
   font-size: 14px;
   opacity: 0.8;
+  color:white;
 }
 
 
