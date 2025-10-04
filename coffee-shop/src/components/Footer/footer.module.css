@@ -1,73 +1,80 @@
 .outerSection{
-    height: 100px;
-    border-top: 1px solid rgba(0,0,0,0.3);
-    margin-top: 80px;
-    border-radius: 30px;
-    
-}
-a{
-    text-decoration: none;
-    color: black;
+    height: 670px;
+    background-image: url('../../Images/imgi_37_footer_map.png');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(36,36,36);
+    margin-top: 50px;
 }
 .container{
-    padding: 40px 30px;
-    padding-bottom: 40px;
+    padding-top:130px;
+    width:80%;
+    margin: 0 auto;
+    padding-bottom: 80px;
 }
-.lists{
+.left{
+    width: 50%;
+}
+.inner{
     display:flex;
-    justify-content: space-between;
+    gap:60px;
+    padding-bottom: 70px;
 }
-h3{
+.left p{
+    color: rgb(146,146,146);
+    padding-top:40px;
+    width:60%;
+}
+.right h1{
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    color: rgb(191,170,131);
+}
+.links ul li{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
     padding-bottom: 15px;
+
 }
-.start{
-    padding-bottom: 15px;
+.links a{
+    color: white ;
 }
-.start p{
-    font-size: 13px;
+.links a:hover{
+    color: rgb(191,170,131);
+    font-style: italic;
+    padding-left: 10px;
 }
-ul li{
-    list-style-type: none;
-    padding-bottom: 25px;
-}
-.start{
-    color: rgb(122, 99, 64);
-}
-.call{
+.icons ul{
     display: flex;
     gap:10px;
-    align-items: center;
-}
-.media {
-    width: 10%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  gap: 5px; /* spacing between items */
-}
-.iconBox{
-    background-color: rgb(201, 163, 106);
-    padding: 3px;
+    list-style-type: none;
+    background-color: rgb(170, 150, 113);
+    width: 20%;
+    padding: 16px 30px;
     border-radius: 10px;
-}
-.iconBox:hover{
-    transform: scale(1.1);
-    background-color: rgb(168, 130, 74);
-}
-.bottom{
-    margin-top: 10px;
-    height: 55px;
-    background-color: rgb(255, 229, 190);
-    
-}
-.bottom p{
-    padding-top: 15px;
-    padding-left: 30px;
-}
 
-@media screen and (max-width:768px){
-    .lists{
-        width:70%;
-        margin: 0 auto;
-        flex-direction: column;
-    }
+}
+.icons ul li{
+    
+    background-color: rgb(226, 211, 180);
+    padding: 5px;
+    border-radius: 6px;
+}
+.icons ul li {
+     transition: transform 0.3s ease;
+    color: black;
+
+}
+.icons ul li :hover{
+    transform: scale(1.1); 
+    color: black;
+}
+.copy{
+    padding-top: 33px;
+    padding-left: 500px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+  
 }
