@@ -3,7 +3,7 @@ import style from "./header.module.css";
 import PersonIcon from "@mui/icons-material/Person";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import MenuIcon from "@mui/icons-material/Menu";
-import coffee from "../../Images/coffee-logo.jpg";
+import coffee from "../../Images/imgi_1_logo_white-7.png";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,8 +16,7 @@ function Header() {
 
         {/* Left section */}
         <div className={style.left}>
-          <img src={coffee} width={60} alt="Coffee Logo" />
-          <h2 className={style.logo}>CoffeeKing</h2>
+          <img src={coffee}  alt="Coffee Logo" />
         </div>
 
         {/* Hamburger icon */}
@@ -29,12 +28,10 @@ function Header() {
         <div className={`${style.middle} ${menuOpen ? style.active : ""}`}>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Reviews</a></li>
             <li><a href="#">About Us</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Products</a></li>
             <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
         
           </ul>
         </div>

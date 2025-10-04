@@ -1,18 +1,19 @@
 .outerSection{
-    height: 650px;
+    height:  auto;
     background-image: url('../../Images//imgi_32_about-bg.png');
     background-position: bottom;
     background-repeat: none;
     background-size:auto;
+    
      
 } 
 .container{
-    height: 500px;
+    /* height: 90vh; */
     width:85%;
     margin: 0 auto;
     display: flex;
     gap:80px;
-    padding-top: 100px;
+    padding: 100px 0;
 
 }
 .left{
@@ -49,9 +50,31 @@
     font-size: 23px;
 }
 .right div p{
-    font-size: 13px;
+    font-size: 14px;
 }
 .right div img{
     padding-bottom: 20px;
+}
+
+@media (max-width:992px){
+    .container{
+        flex-direction: column;
+    }
+    .left, .right{
+        width:80%;
+    }
+}
+
+@media (max-width:768px){
+    .left{
+        width: 100%;
+    
+    }
+    .right{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width:100%;
+    }
+
 }
 
