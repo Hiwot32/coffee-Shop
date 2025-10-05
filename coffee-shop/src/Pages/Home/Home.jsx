@@ -14,17 +14,13 @@ import Blog from '../../components/Blog/Blog'
 function Home() {
   return (
     <div>
-      <div className={home.bg}>
-        <Header />
         <Hero />
-      </div>
         <About />
         <Products />
         <Points />
         <Brands />
         <Discount />
         <Blog />
-        <Footer />
         
       
     </div>
