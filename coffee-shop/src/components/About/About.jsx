@@ -24,7 +24,7 @@ function About() {
                 </div>
 
             </div>
-            <dev className={designs.right}>
+            <div className={designs.right}>
                 <div className={designs.first}>
                     <img src={first} />
                     <h3>The Best World Sorts</h3>
@@ -50,7 +50,7 @@ function About() {
 
                 </div>
 
-            </dev>
+            </div>
 
         </div>
       

@@ -13,7 +13,7 @@
     margin: 0 auto;
     display: flex;
     gap:80px;
-    padding: 100px 0;
+    padding: 80px 0;
 
 }
 .left{
@@ -48,6 +48,7 @@
 }
 .right div h3{
     font-size: 23px;
+    padding-bottom: 14px;
 }
 .right div p{
     font-size: 14px;

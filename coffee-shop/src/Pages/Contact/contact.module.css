@@ -1,0 +1,22 @@
+.topSection{
+    height:40vh;
+    background-image: url('../../Images/imgi_10_inner_parallax.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.texts{
+    padding-top:60px;
+    padding-left: 100px;
+}
+.texts h1{
+    font-size: 65px;
+    font-weight: 900;
+    color: white;
+}
+.texts p{
+    color:rgb(191,171,130);
+    font-size: 20px;
+    font-weight: bold;
+
+}

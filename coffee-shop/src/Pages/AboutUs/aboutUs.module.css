@@ -1,0 +1,139 @@
+.topSection{
+    height:40vh;
+    background-image: url('../../Images/imgi_10_inner_parallax.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.texts{
+    padding-top:60px;
+    padding-left: 100px;
+}
+.texts h1{
+    font-size: 65px;
+    font-weight: 900;
+    color: white;
+}
+.texts p{
+    color:rgb(191,171,130);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.outerSection{
+    height:  auto;
+    background-image: url('../../Images//imgi_32_about-bg.png');
+    background-position: bottom;
+    background-repeat: none;
+    background-size:auto;
+    
+     
+} 
+.container{
+    /* height: 90vh; */
+    width:85%;
+    margin: 0 auto;
+    display: flex;
+    gap:80px;
+    padding: 100px 0;
+
+}
+.left{
+    width: 60%;
+    padding-top: 30px;
+}
+.head{
+    font-size: 23px !important;
+    font-weight: bold;
+    color:rgb(192,170,131)
+}
+.left h1{
+    font-size: 60px;
+    padding-bottom: 35px;
+}
+.left img{
+    padding-top: 80px;
+}
+.left p{
+    font-size: 20px;
+}
+.right{
+    padding-top: 40px;
+}
+.grids{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width:85%;
+    margin: 0 auto;
+    gap: 35px;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    
+}
+.grids div h3{
+    font-size: 23px;
+    padding-bottom: 14px;
+}
+.grids div p{
+    font-size: 14px;
+}
+.grids div img{
+    padding-bottom: 20px;
+}
+.skilsSection{
+    background-image: url('../../Images/imgi_11_Rectangle-27-copy-2.png');
+    background-position: center;
+    background-size: cover;
+    padding:100px 0px;
+    text-align: center;
+    margin-top: 30px;
+}
+.skilsSection h1{
+    font-size: 60px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: 800;
+}
+.skills{
+    width:85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:40px;
+    text-align: center;
+}
+.skills div{
+    border: 6px solid white;
+    padding:35px;
+}
+.skills div h1{
+    color: rgb(191,171,130);
+}
+.skills div h2{
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 18px;
+    color: white;
+}
+.skills div p{
+    color: white;
+}
+@media(max-width:992px){
+    .container{
+        flex-direction: column;
+    }
+    .left, .right{
+        width: 100%;
+    }
+    .grids, .skills{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media(max-width:768px){
+    .grids, .skills{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
