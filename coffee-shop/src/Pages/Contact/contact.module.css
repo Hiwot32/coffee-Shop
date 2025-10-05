@@ -20,3 +20,129 @@
     font-weight: bold;
 
 }
+.container{
+    width:85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding:100px 0px;
+}
+.left h3{
+    font-size: 27px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.text{
+    font-size: 18px !important;
+    padding-bottom: 45px !important; 
+    font-weight: 100 !important;
+}
+.left p{
+    padding-bottom: 30px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    
+}
+.social{
+    font-size: 20px;
+    padding-bottom: 13px;
+    padding-top: 40px;
+    font-weight: 900;
+}
+.medias ul{
+    display: flex;
+    list-style-type: none;
+    gap:20px;
+
+}
+.medias ul li{
+    font-size: 30px;
+}
+.medias a{
+    color: white;
+    padding: 7px;
+    border-radius: 40%;
+}
+.medias a:hover{
+    background-color: rgb(191,171,130);
+}
+.face{
+    background-color: rgb(155, 155, 250);
+}
+.twit{
+    background-color: rgb(140, 215, 240);
+}
+.you{
+    background-color: rgb(250, 74, 74);
+}
+.ig{
+    background-color: rgb(241, 129, 88);
+}
+.middle{
+    background-image: url('../../Images/imgi_67_contact-bg.png');
+    padding: 20px;
+}
+.days{
+    padding:50px;
+    color: white;
+    text-align: center;
+    border: 6px solid white;
+
+}
+.middle h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.middle p{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.middle p span{
+    
+    font-weight: 900;
+}
+.right{
+    background-color: rgb(246,246,246);
+}
+input{
+    margin-bottom: 40px;
+    border: none;
+}
+.form{
+    width:75%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.small{
+    padding: 18px 40px;
+}
+.large{
+    padding: 40px;
+}
+.right button{
+    padding:16px 45px;
+    color:white;
+    font-weight: bold;
+    background-color: rgb(191,171,130);
+    border: none;
+    cursor: pointer;
+}
+.right button:hover{
+    background-color: rgb(36,36,36);
+}
+@media(max-width:992px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:768px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
