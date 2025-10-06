@@ -1,0 +1,87 @@
+.topSection{
+    height:40vh;
+    background-image: url('../../Images/imgi_10_inner_parallax.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.texts{
+    padding-top:60px;
+    padding-left: 100px;
+}
+.texts h1{
+    font-size: 65px;
+    font-weight: 900;
+    color: white;
+}
+.texts p{
+    color:rgb(191,171,130);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.container{
+    width:80%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+    padding: 100px 0px;
+}
+.title{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    padding-bottom: 15px;
+}
+.card{
+    border:1px solid rgba(0,0,0,0.1);
+    text-align: center;
+    padding:35px;
+    cursor: pointer;
+}
+.card img{
+    padding-bottom: 20px;
+}
+.card:hover{
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.3);;
+}
+.card h2{
+    font-weight: 800;
+    color:rgb(191,171,130);
+    padding-bottom: 15px;
+}
+.card h3{
+    padding: 20px 0px;
+    color: rgb(191,171,130);
+    font-weight: 800;
+}
+.card button{
+    background-color: rgb(191,171,130);
+    font-weight: 700;
+    border: none;
+    padding: 8px 35px;
+    color: white;
+    display: flex;
+    gap: 4px;
+    margin: 0 auto;
+    cursor: pointer;
+    
+}
+.card button:hover{
+    background-color: rgb(36,36,36);
+}
+@media(max-width:992px){
+    .container{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+@media(max-width:768px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

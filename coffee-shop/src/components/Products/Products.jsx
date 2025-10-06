@@ -1,5 +1,6 @@
 import React from "react";
 import { products } from "../utils/products";
+import { Link } from "react-router-dom";
 import styls from "./products.module.css";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
@@ -25,7 +26,9 @@ function Products() {
             </div>
           ))}
         </div>
+        <Link to="/product">
         <button className={styls.allp}>View all products</button>
+        </Link>
       </div>
     </div>
   );
