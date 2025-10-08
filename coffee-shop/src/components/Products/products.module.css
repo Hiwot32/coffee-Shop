@@ -1,6 +1,6 @@
 .outerSection{
     background-color: rgb(36,36,36);
-    height: 1000px;
+    /* height: 1000px; */
 }
 .container{
     width: 85%;
@@ -76,6 +76,7 @@
 }
 .allp{
   margin-top: 60px;
+  margin-bottom: 40px;
   padding:16px 40px;
   font-size: 15px;
   font-weight: bold;
@@ -91,14 +92,7 @@
   border: none;
   transform: scale(0.99);
 }
-.swiper {
-  padding: 20px 0;
-}
 
-.swiper-slide {
-  display: flex;
-  justify-content: center;
-}
 @media(max-width:992px){
   .flex .card:nth-child(n+3){
     display: none;

@@ -60,6 +60,9 @@
 .right{
     padding-top: 40px;
 }
+.right img{
+    max-width: 100%;
+}
 .grids{
     padding: 30px 0;
     display: grid;

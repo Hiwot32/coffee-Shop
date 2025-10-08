@@ -5,13 +5,17 @@
     margin: 0 auto;
     width:85%;
     display:flex;
-    gap:70px;
+    gap:80px;
     padding-top: 100px;
 }
 .left{
-    width:60%;
+    width:80%;
     display: flex;    
 }
+.right{
+    width: 80%;
+}
+
 .top{
     width:60%;
     position: relative;
@@ -63,7 +67,7 @@
 }
 .cup {
   /* width: 100%;  */
-  /* max-width: 400px;   */
+  max-width: 100%;  
     margin-left: -70px; 
 }
 @media(max-width:768px){

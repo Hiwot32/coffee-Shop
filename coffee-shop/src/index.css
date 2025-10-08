@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body, html {
+  overflow-x: hidden;
+}
+
 /* Titles, banners, hero text */
 h1, h2 {
    font-family: 'Montserrat', sans-serif;

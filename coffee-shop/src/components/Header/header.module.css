@@ -37,8 +37,7 @@ a:hover {
     gap: 7px;
 }
 
-.middle ul,
-.right ul {
+.middle ul {
     display: flex;
     list-style-type: none;
     gap: 25px;
@@ -46,7 +45,14 @@ a:hover {
     padding: 0;
     margin: 0;
 }
-
+.right ul{
+        display: flex;
+    list-style-type: none;
+    gap: 16px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
 .right ul li:first-child a {
     display: flex;
     align-items: center;
@@ -87,6 +93,7 @@ a:hover {
 
     .middle.active {
         display: flex;
+        z-index: 1000;
     }
 
     .middle ul {

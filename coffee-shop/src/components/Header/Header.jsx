@@ -10,6 +10,7 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
+  const closeMenu = () => setMenuOpen(false);
 
   return (
     <div className={style.outerSection}>
@@ -28,11 +29,11 @@ function Header() {
         {/* Middle menu */}
         <div className={`${style.middle} ${menuOpen ? style.active : ""}`}>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/product">Products</Link></li>
-            <li><Link to="/blog">Blog</Link></li>
-            <li><Link to="/contact">Contact Us</Link></li>
+            <li><Link to="/" onClick={closeMenu}>Home</Link></li>
+            <li><Link to="/about" onclick={closeMenu}>About Us</Link></li>
+            <li><Link to="/product" onclick={closeMenu}>Products</Link></li>
+            <li><Link to="/blog" onClick={closeMenu}>Blog</Link></li>
+            <li><Link to="/contact" onClick={closeMenu}>Contact Us</Link></li>
         
           </ul>
         </div>

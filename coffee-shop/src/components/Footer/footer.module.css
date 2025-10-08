@@ -1,5 +1,5 @@
 .outerSection{
-    height: 670px;
+    /* height: 670px; */
     background-image: url('../../Images/imgi_37_footer_map.png');
     background-position: center;
     background-size: cover;
@@ -7,7 +7,7 @@
     margin-top: 50px;
 }
 .container{
-    padding-top:130px;
+    padding-top:120px;
     width:80%;
     margin: 0 auto;
     display: flex;
