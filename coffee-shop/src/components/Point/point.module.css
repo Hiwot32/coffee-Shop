@@ -23,7 +23,19 @@
 .top h1{
     font-size: 110px;
     color: rgb(191,170,131);
+    width:0;
+    overflow: hidden;
+ animation: typing 0.3s steps(4) forwards;
 }
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 4ch; /* 4 characters in "5400" */
+  }
+}
+
 .bottom{
     font-size:45px;
     font-weight: bold;

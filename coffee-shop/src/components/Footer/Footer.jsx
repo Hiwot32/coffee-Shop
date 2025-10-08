@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styles from './footer.module.css'
 import logo from '../../Images/imgi_1_logo_white-7.png'
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
@@ -23,11 +24,11 @@ function Footer() {
                 <h1>Explore</h1>
                 <div className={styles.links}>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">About US</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/contact">Contact Us</Link></li>
+                        <li><Link to="/product">Products</Link></li>
+                        <li><Link to="blog">Blog</Link></li>
+                        <li><Link to="/about">About US</Link></li>
                     </ul>
                 </div>
 
